@@ -24,7 +24,7 @@ const defaultMenu = {
 ⁙┃〲
 ⁙┃〲 Uptime: *%uptime (%muptime)*
 ⁙┃〲 Database: %rtotalreg dari %totalreg
-⁙┃〲 GitHub: https://github.com/Drz103/RadBot
+⁙┃〲 GitHub: https://github.com/mellcanzz
 ⁙┃〲
 ⁙╰•°°°🕊°°°°°🕊°°°°°°🕊°°°°°°°°
 %readmore`.trimStart(),
@@ -223,7 +223,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©RadBotZ`.trim(),
+                        "description": `©BOT ツˣᴿᶻズガx`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "*Click Here*",
                         "listType": "SINGLE_SELECT",
@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
-                                    "description": "pemilik RadBotZ",
+                                    "description": "pemilik ツˣᴿᶻズガx",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Donasi",
